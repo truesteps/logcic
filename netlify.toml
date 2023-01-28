@@ -1,0 +1,4 @@
+[build]
+publish = ".output/public/"
+command = "yarn generate"
+environment = { NODE_VERSION = "16", HOST = "https://its-pronounced-gif.netlify.app", APP_ENV = "production" }
