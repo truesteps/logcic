@@ -1,4 +1,4 @@
 [build]
-publish = ".output/public/"
+publish = "dist/"
 command = "yarn generate"
 environment = { NODE_VERSION = "16", HOST = "https://logcic.com", APP_ENV = "production" }
