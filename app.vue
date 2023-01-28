@@ -66,7 +66,7 @@
 		</div>
 
 		<VueCard class="mt-6">
-			<p class="mx-auto max-w-xl text-justify text-lg max-sm:text-sm leading-8 text-white">
+			<p class="mx-auto max-w-xl text-left text-lg max-sm:text-sm leading-8 text-white">
 				Currently hacking marketing asset generation at
 
 				<VueLink class="text-gray-300 no-underline opacity-40" href="#" title="Imagelance website link">
@@ -77,7 +77,7 @@
 			</p>
 		</VueCard>
 
-		<p class="mx-auto mt-4 max-w-xl text-justify text-lg max-sm:text-md leading-8 text-white">
+		<p class="mx-auto mt-4 max-w-xl text-left text-lg max-sm:text-md leading-8 text-white">
 			An ex pro-gamer wannabe turned programmer. Fullstack dev working with
 			<VueLink href="https://laravel.com/" title="Laravel website">Laravel</VueLink>,
 			<VueLink href="https://vuejs.org/" title="Vue website">Vue</VueLink> and
