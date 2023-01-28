@@ -48,7 +48,7 @@
 			</a>
 		</p>
 
-		<div class="mt-6 flex items-center justify-center gap-x-4">
+		<div class="mt-6 flex items-center max-sm:flex-col justify-center gap-x-4 gap-y-4">
 			<VueButton
 				href="https://twitter.com/stepsovich"
 				icon="bi-twitter"
