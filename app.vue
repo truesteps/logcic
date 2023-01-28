@@ -69,7 +69,9 @@
 			<p class="mx-auto max-w-xl text-justify text-lg max-sm:text-sm leading-8 text-white">
 				Currently hacking marketing asset generation at
 
-				<VueLink href="https://imagelance.com" title="Imagelance website link">
+				<VueLink class="text-gray-300 no-underline opacity-40" href="#" title="Imagelance website link">
+					<VueIcon name="ri-loader-2-line" class="animate-spin-slow mr-[-4px]" />
+
 					imagelance.com
 				</VueLink>
 			</p>
