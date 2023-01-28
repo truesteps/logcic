@@ -4,10 +4,10 @@
 
 <template>
 	<NuxtLayout>
-		<h2 class="text-4xl font-bold tracking-tight text-white">
+		<h2 class="text-4xl max-sm:text-3xl font-bold tracking-tight text-white">
 			<span class="block">
 				<img
-					class="inline-block h-[120px] w-[120px] rounded-full border border-4"
+					class="inline-block h-[120px] w-[120px] max-sm:h-[100px] max-sm:w-[100px] rounded-full border border-4"
 					src="~/assets/img/avatar.jpg"
 					alt=""
 				/>
@@ -17,9 +17,9 @@
 				Patrik Jánosdeák
 			</span>
 
-			<h3 class="text-2xl font-bold tracking-tight text-white">
+			<h3 class="text-2xl max-sm:text-xl font-bold tracking-tight text-white">
 				<div class="flex items-center">
-					<span class="px-2 text-3xl">
+					<span class="px-2 max-sm:text-2xl">
 						👉
 					</span>
 
@@ -27,14 +27,14 @@
 						Full-stack Developer
 					</span>
 
-					<span class="px-2 text-3xl">
+					<span class="px-2 max-sm:text-2xl">
 						👈
 					</span>
 				</div>
 			</h3>
 		</h2>
 
-		<p class="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">
+		<p class="mx-auto mt-6 max-w-xl text-lg max-sm:text-md leading-8 text-gray-300">
 			Currently hacking marketing asset generation at
 
 			<a
