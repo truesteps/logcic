@@ -1,3 +1,7 @@
+<script setup>
+	console.log('cic');
+</script>
+
 <template>
 	<NuxtLayout>
 		<h2 class="text-4xl font-bold tracking-tight text-white">
