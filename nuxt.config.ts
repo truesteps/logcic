@@ -14,7 +14,7 @@ export default defineNuxtConfig({
 			meta: [
 				{
 					name: 'description',
-					content: 'You probably came to the wrong place. But if you want to hire me don\'t just fuck off and get disappointed by the amateurish site. MAN THE FUCK UP AND HIRE ME BITCH!'
+					content: 'Software developer born and raised'
 				},
 				{
 					name: 'keywords',
