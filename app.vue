@@ -7,7 +7,7 @@
 
 <template>
 	<NuxtLayout>
-		<h2 class="text-4xl max-sm:text-3xl font-bold tracking-tight text-white">
+		<h2 class="text-4xl max-sm:text-3xl font-bold tracking-tight text-white text-center">
 			<span class="block">
 				<img
 					class="inline-block h-[120px] w-[120px] max-sm:h-[100px] max-sm:w-[100px] rounded-full border border-4"
@@ -65,7 +65,7 @@
 			</VueButton>
 		</div>
 
-		<VueCard class="mt-6">
+		<VueCard class="mt-8">
 			<p class="mx-auto max-w-xl text-left text-lg max-sm:text-sm leading-8 text-white">
 				Currently hacking marketing asset generation at
 
@@ -77,7 +77,7 @@
 			</p>
 		</VueCard>
 
-		<p class="mx-auto mt-4 max-w-xl text-left text-lg max-sm:text-md leading-8 text-white">
+		<p class="mx-auto mt-4 max-w-xl text-lg max-sm:text-md leading-8 text-white">
 			An ex pro-gamer wannabe turned programmer. Fullstack dev working with
 			<VueLink href="https://laravel.com/" title="Laravel website">Laravel</VueLink>,
 			<VueLink href="https://vuejs.org/" title="Vue website">Vue</VueLink> and
