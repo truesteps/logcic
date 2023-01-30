@@ -23,6 +23,26 @@ export default defineNuxtConfig({
 				{
 					name: 'author',
 					content: 'Patrik Jánosdeák'
+				},
+				{
+					property: 'og:type',
+					content: 'website'
+				},
+				{
+					property: 'og:url',
+					content: 'https://logcic.com'
+				},
+				{
+					property: 'og:title',
+					content: 'Patrik Jánosdeák'
+				},
+				{
+					property: 'og:description',
+					content: 'Software developer born and raised'
+				},
+				{
+					property: 'og:image',
+					content: 'https://logcic.com/og_image.jpg'
 				}
 			],
 			link: [
