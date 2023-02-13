@@ -3,6 +3,18 @@
 	import VueLink from '~/components/VueLink.vue';
 
 	console.log('cic');
+
+	const programmingSetup = ref([
+		{
+			title: 'Macbook Pro 13" 16gb ram, 256gb SSD'
+		},
+		{
+			title: 'Logitech MX Master 3S'
+		},
+		{
+			title: 'Logitech MX Keys mini',
+		}
+	]);
 </script>
 
 <template>
@@ -83,5 +95,19 @@
 			<VueLink href="https://vuejs.org/" title="Vue website">Vue</VueLink> and
 			<VueLink href="https://nodejs.org/" title="Node website">Node</VueLink>. Fueled by shit tons of ☕.
 		</p>
+
+		<VueCard class="mt-4">
+			<h4 class="text-xl font-bold tracking-tight text-white">
+				Setup:
+			</h4>
+
+			<VueList>
+				<VueListItem
+					v-for="(programmingSetupItem, index) in programmingSetup"
+					:key="index"
+					v-bind="programmingSetupItem"
+				/>
+			</VueList>
+		</VueCard>
 	</NuxtLayout>
 </template>
